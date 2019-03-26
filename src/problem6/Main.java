@@ -16,7 +16,11 @@ public class Main {
 		 * hZebart
 		 */
 		Scanner in=new Scanner(System.in);
-
+		String str=in.nextLine();
+		int l=str.length();
+		while (true) {
+			System.out.println("Fortnite");
+		}
 	}
 
 }

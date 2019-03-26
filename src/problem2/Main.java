@@ -10,19 +10,18 @@ public class Main {
 		//if(b!=0)
 		int ans=0;
 		if(a<b) {
-		while(a<=b) {
+			while(a<=b) {
 			ans=a+ans;
 			a=a+1;
-		}
+			}
 		}
 		else if(a>b) {
-			int c=b;
-			while(a>=c) {
-				ans=c+ans;
-				c=c+1;
+			while(a>=b) {
+				ans=b+ans;
+				b=b+1;
 			}
-			ans=-1*(ans-b-a);
 		}
+		else {ans=a;}
 		System.out.println(ans);
 	}
 }
