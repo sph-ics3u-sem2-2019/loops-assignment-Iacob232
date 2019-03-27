@@ -18,8 +18,12 @@ public class Main {
 		Scanner in=new Scanner(System.in);
 		String str=in.nextLine();
 		int l=str.length();
-		while (true) {
-			System.out.println("Fortnite");
+		int m=l;
+		while(m>0) {
+			System.out.println(str);
+			str=str+str.substring(0);
+			str=str.substring(1,l+1);
+			m=m-1;
 		}
 	}
 
