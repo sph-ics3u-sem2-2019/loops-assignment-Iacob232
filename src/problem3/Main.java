@@ -13,5 +13,4 @@ public class Main {
 		 o=o+1;
 		}
 	}
-
 }

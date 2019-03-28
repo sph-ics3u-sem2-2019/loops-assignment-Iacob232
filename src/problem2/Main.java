@@ -10,15 +10,13 @@ public class Main {
 		//if(b!=0)
 		int ans=0;
 		if(a<b) {
-			while(a<=b) {
-			ans=a+ans;
-			a=a+1;
+			for (int c=a; c<=b;c++) {
+			ans=c+ans;
 			}
 		}
 		else if(a>b) {
-			while(a>=b) {
-				ans=b+ans;
-				b=b+1;
+			for(int c=b;a>=c;c++) {
+				ans=c+ans;
 			}
 		}
 		else {ans=a;}
