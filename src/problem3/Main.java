@@ -7,10 +7,8 @@ public class Main {
 		Scanner in=new Scanner(System.in);
 		String str=in.nextLine();
 		int n=str.length();
-		int o=0;
-		while(o<n){
+		for(int o=0;o<n;o++){
 		 System.out.println(str.charAt(o));
-		 o=o+1;
 		}
 	}
 }

@@ -8,8 +8,7 @@ public class Main {
 		String str=in.nextLine();
 		String r="";
 		int n=str.length();
-		int x=0;
-		while(x<n) {
+		for(int x=0;x<n;x++) {
 			char c=str.charAt(x);
 			if (c>='A'&&c<='Z') {
 				c=(char)(c+32);
@@ -18,7 +17,6 @@ public class Main {
 				c=(char)(c-32);
 			}
 			r=r+c;
-			x=x+1;
 		}
 		System.out.println(r);
 	}
